@@ -1,0 +1,135 @@
+body,div, p, ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea {
+margin: 0px;
+padding: 0px;
+font-size: 15px;
+font-family:"microsoft yahei";
+}
+ul {
+list-style: none;
+}
+img,a img {
+border: 0px;
+} 
+a{
+color:white;
+text-decoration: none;
+}
+/*基本css到此结束*/
+
+
+header{
+position:fixed;
+height:50px;
+width:100%;
+background-color:#888;
+}
+.head{
+margin:0 auto;
+width:1200px;
+
+}
+.head_left{
+text-align:center;
+line-height:50px;
+float:left;
+width:200px;
+height:100%;
+font-size:20px;
+}
+.head_right{
+text-align:center;
+line-height:50px;
+margin:0 500px;
+width:800px;
+height:100%;
+
+}
+.head_right a{
+float:left;
+width:120px;
+}
+.head_right a:hover{
+background-color:#9e9;
+color:#336666;
+}
+.firstPage{
+background-color:#345;
+height:650px;
+width:100%;
+}
+
+.firstPage p{
+margin:0 auto;
+text-align:center;
+width:500px;
+line-height:650px;
+font-size:80px;
+color:white;
+}
+
+#introduction{
+background-color:#389;
+height:650px;
+width:100%;
+}
+#introduction p{
+margin:0 auto;
+text-align:center;
+width:500px;
+line-height:650px;
+font-size:80px;
+color:white;
+}
+#skills{
+background-color:#774;
+height:650px;
+width:100%;
+}
+#skills p{
+padding-top:80px;
+text-align:center;
+width:100%;
+font-size:40px;
+color:white;
+}
+
+#experience{
+background-color:#768;
+height:650px;
+width:100%;
+}
+#experience p{
+padding-top:80px;
+text-align:center;
+width:100%;
+font-size:40px;
+color:white;
+}
+
+#works{
+background-color:#283;
+height:650px;
+width:100%;
+}
+#works p{
+padding-top:80px;
+text-align:center;
+width:100%;
+font-size:40px;
+color:white;
+}
+
+#wantMore{
+background-color:#968;
+height:650px;
+width:100%;
+}
+#wantMore p{
+display:block;
+padding-top:240px;
+width:100%;
+font-size:40px;
+color:white;
+text-align:center;
+}
+
