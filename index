@@ -1,59 +1,146 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>宋明明的简历</title>
-<meta charset=utf-8 />
-
-<link rel="stylesheet" href="../css/public.css" />
-<script src="../js/mian.js"></script>
+	<meta charset="UTF-8">
+	<title>宋明明简历</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/navFixed.js"></script>
+	<script src="js/main.js"></script>
 </head>
 <body>
-  <header>
-  <div class="head">
-    <a class="head_left">Hi,我是宋明明</a>
-    <nav class="head_right">
-		  <a href="#introduction">个人简介</a>
-		  <a href="#skills">专业技能</a>
-		  <a href="#experience">工作经历</a>
-		  <a href="#works">我的作品</a>
-		  <a href="#wantMore">联系方式</a>
-    </nav>
-	</div>
-  </header>
-	
-	
-  <section class="firstPage">
-    <p>Hello World</p>
-  </section>
-	
-	
-  <section id="introduction">
-    <p>宋明明</p>
-  </section>
-	
-	
-  <section id="skills">
-    <p>专业技能</p>
-  </section>
-	
-	
-  <section id="experience">
-    <p>工作经历</p>
-  </section>
-	
-	
-  <section id="works">
-    <p>我的作品</p>
-  </section>
+	<section id="firstPage">
+		<h1>Hello World</h1>
+		<div id="down"><a href="#introPage" hideFocus="true"></a></div>
+	</section>
 
-  
-  <section id="wantMore">
-	<p>想了解更多，快联系我吧：<br /><br />
-    13510949850<br />
-	<a href="mailto:864136911qq.com">864136911@qq.com</a>
-	</p>
-  </section>
+	<section id="nav">
+		<header class="container">
+			<a class="fl" href="#firstPage" id="logo">宋明明</a>
+			<nav class="fr">
+				<a href="#introPage" id="intro">关于我</a>
+				<a href="#skillPage" id="skill">知识技能</a>
+				<a href="#resumePage" id="resume">工作经历</a>
+				<a href="#projectPage" id="project">我的作品</a>
+				<a href="#contactPage" id="contact">联系方式</a>
+			</nav>
+		</header>
+	</section>
 
-  
+	<section id="introPage" class="page">
+		<div class="container">
+			<div class="title">
+				<h2>关于我</h2>
+			</div>
+			<div id="introInfo">
+				<img id="myPhoto" src="images/myPhoto.png">
+				<div class="info">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="skillPage" class="page">
+		<div class="container">
+			<div class="title">
+				<h2>知识技能</h2>
+			</div>
+			<P class="info"> 前端的学习需要持之以恒，知识深度与广度都很重要。而前端开发的重中之重就是原生javascript的理解，而如今的思路必需有模块化，组件化，工程化</P>
+			<div id="skillList">
+				<div id="listOne" class="list">
+					<div id="iconOne" class="skillIcon"></div>
+					<div class="skillName">HTML(5)</div>
+					<div id="skillIntro1" class="skillIntro">
+						<ul>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+						</ul>
+					</div>
+				</div>
+				<div id="listTwo" class="list">
+					<div id="iconTwo" class="skillIcon"></div>
+					<div class="skillName">CSS(3)</div>
+					<div id="skillIntro2" class="skillIntro">
+						<ul>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+						</ul>
+					</div>
+				</div>
+				<div id="listThree" class="list">
+					<div id="iconThree" class="skillIcon"></div>
+					<div class="skillName">JavaScript</div>
+					<div id="skillIntro3" class="skillIntro">
+						<ul>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+						</ul>
+					</div>
+				</div>
+				<div id="listFour" class="list">
+					<div id="iconFour" class="skillIcon"></div>
+					<div class="skillName">PHP</div>
+					<div id="skillIntro4" class="skillIntro">
+						<ul>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+						</ul>
+					</div>
+				</div>
+				<div id="listFive" class="list">
+					<div id="iconFive" class="skillIcon"></div>
+					<div class="skillName">Photoshop</div>
+					<div id="skillIntro5" class="skillIntro">
+						<ul>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+							<li>熟练运用angularJS处理移动端的模块开发</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="resumePage" class="page">
+		<div class="container">
+			<div class="title">
+				<h2>工作经历</h2>
+			</div>
+		</div>
+	</section>
+
+	<section id="projectPage" class="page">
+		<div class="container">
+			<div class="title">
+				<h2>我的作品</h2>
+			</div>
+		</div>
+	</section>
+
+	<section id="contactPage" class="page">
+		<div class="container">
+			<div class="title">
+				<h2>联系我</h2>
+			</div>
+			<p>快把我收到碗里吧<br>
+			<a href=	"mailto:&#x79;&#101;&#106;&#117;&#110;&#x78;&#x69;&#110;&#103;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;" hideFocus="true">&#x79;&#101;&#106;&#117;&#110;&#x78;&#x69;&#110;&#103;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;	</a>
+			</p>
+		</div>
+	</section>
+
 </body>
 </html>
