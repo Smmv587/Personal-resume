@@ -1,0 +1,326 @@
+/* public */
+section{
+	width:100%; 
+	overflow:hidden;
+}
+.container{
+	margin:0 auto; 
+	width:1140px; 
+	height:100%;
+	z-index:0;
+}
+h2 {
+	font-size:30px; 
+	font-weight:normal;
+}
+h3{
+	font-size:25px; 
+	font-weight:normal;
+	text-align:center;
+	padding-top:30px;
+}
+.title{
+	margin:0 auto; 
+	padding:10px;
+	width:200px;
+	text-align:center;
+	border-bottom:2px solid #eee;
+	letter-spacing:5px;
+}
+.page{
+	width:100%; 
+	height:auto; 
+	padding-top:40px;
+	padding-bottom:100px;
+	color:#fff;
+}
+
+/* firstPage */
+#firstPage{
+	background:url(../images/contact-bg.jpg) center; 
+	text-align:center;
+	color:#fff;
+}
+h1{
+	display:none; 
+	position:absolute; 
+	margin:0 auto; 
+	width:100%;
+	font-size:70px;
+	letter-spacing:3px;
+}
+#profession{
+	display:block; 
+	position:absolute; 
+	bottom:-50px;
+	margin:0 auto; 
+	width:100%;
+	font-size:30px;
+	letter-spacing:3px;
+}
+#down{
+	position:absolute; 
+	bottom:20px; 
+	height:18px; 
+	width:100%;
+}
+#down a{
+	display:block; 
+	height:18px; 
+	width:32px; 
+	margin:0 auto; 
+	background:url(../images/down1.png) no-repeat center;
+}
+#down a:hover{
+	background:url(../images/down2.png) no-repeat center;
+}
+
+/* nav */
+#nav{
+	position:relative;
+	top:0; 
+	height:52px; 
+	background-color:#2c3e50; 
+	color:white; 
+}
+#nav a{
+	padding:0 25px; 	
+	font-size:15px; 
+	line-height:52px; 
+	cursor:pointer; 
+	z-index:1; 
+	color:#eee;
+}
+#nav a:hover{color:#f60;}
+
+/* introPage */
+#introPage{
+	background-color:#1889C5; 
+}
+#intro{
+	width:100%;
+	position:relative;
+}
+#myPhoto{
+	cursor:pointer;
+	display:block; 
+	margin:20px auto;
+	height:200px; 
+	width:200px; 
+	border-radius:50%;
+	-ms-transform:scale(1.0);
+	-webkit-transform:scale(1.0);
+    transform:scale(1.0);
+    transition:transform 0.5s;
+	border:3px solid #fff;
+}
+#myPhoto:hover{
+	-ms-transform:scale(1.0);
+	-webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    transition:transform 0.8s;
+}
+#introMain{
+	position:absolute;
+	left:0;
+	right:0;
+	width:800px;
+	margin:30px auto;
+	padding-left:70px;
+	text-align:center;
+}
+#introMain .pic{
+	display:block;
+	padding-left:40px;
+	width:100px;
+	float:left;
+	font-size:18px;
+}
+#introMain .pic li{
+	font-size:40px;
+}
+#introMain a:hover{
+	color:rgba(0,0,0,0.5);
+}
+.introText{
+	width:70%;
+	margin:0 auto;
+	padding-top:150px;
+}
+
+/* skill */
+#skillPage{
+	background-color:#9C58B6; 
+	padding-bottom:300px;
+}
+#skillList{
+	padding-top:130px;
+	width:100%;
+	margin:0 auto;
+}
+.list{
+	float:left;
+	width:15%;
+	padding-left:50px;
+	margin:0 auto;
+}
+.skillIcon{
+	cursor:pointer;
+	background-size:100%;
+	width:100px;
+	height:100px;
+	text-align:center;
+	margin:10px auto;
+	-webkit-transform:scale(1.0);
+    transform:scale(1.0);
+    transition:transform 0.8s;
+	opacity:0.9;
+}
+.skillIcon:hover{
+	-webkit-transform:scale(1.2);
+    transform:scale(1.2);
+    transition:transform 0.8s;
+	opacity:1.0;
+}
+#iconOne{
+	background:url(../images/HTML.png) no-repeat;
+}
+#iconTwo{
+	background:url(../images/CSS.png) no-repeat;
+}
+#iconThree{
+	background:url(../images/JS.png) no-repeat;
+}
+#iconFour{
+	background:url(../images/bootstrap.png) no-repeat;
+}
+#iconFive{
+	background:url(../images/PS.png) no-repeat;
+}
+.skillName{
+	font-size:20px;
+	text-align:center;
+	padding-top:10px;
+}
+.skillIntro{
+	position:relative;
+	top:20px;
+	width:300px;
+	height:190px;
+	left:-65px;
+	display:none;
+	border:1px solid #666;
+	border-radius:5px;
+	color:#fff;
+	background-color:rgba(0,0,0,0.10);
+}
+.skillIntro ul{
+	padding:10px;
+}
+.skillIntro ul li{
+	font-size:16px;
+	margin-left:25px;
+	padding:5px;
+	list-style:square;
+}
+
+/* resumePage */
+#resumePage{
+	background-color:#26B1B6; 
+}
+#resumeInfo{
+	width:100%;
+	padding-top:50px;
+}
+#resumeInfo .articlePart{
+	width:100%;
+	float:left;
+}
+#workExp{
+	background-color:rgba(0,0,0,0.10);
+}
+#education{
+	background-color:rgba(0,0,0,0.20);
+}
+.imageSection{
+	display:block;
+	width:50%;
+	float:left;
+	font-size:0;
+	cursor:pointer;
+}
+.imageSection img{
+	position:relative;
+	width:100%;
+	transition:all 0.5s;
+}
+.imageSection:hover img{
+	opacity:0.3;
+}
+.textSection{
+	width:50%;
+	float:left;
+}
+.textSection .subHead{
+	font-size:13px;
+	padding:10px 10px 10px 10px;
+}
+ol{
+	padding-left:50px;
+	padding-right:40px;
+	font-size:16px;
+	line-height:30px;
+}
+
+/* projectPage */
+#projectPage{
+	background-color:#129AD7; 
+}
+#wrapper {
+	padding-top:50px;
+}
+#wrapper img{
+	float:left;
+	margin:18px;
+	border-radius:10%;
+	border:2px solid #fff;
+}
+
+/* contactPage */
+#contactPage{
+	background-color:#333; 
+}
+#more{
+	width:100%;
+	padding-top:100px;
+	padding-bottom:80px;
+}
+#more h3{
+	font-size:28px;
+	text-align:center;
+	padding-bottom:100px;
+}
+#more p{
+	font-size:20px;
+	padding-top:20px;
+	text-align:center;
+}
+
+/* backToTop */
+#backTop{
+	position:fixed;
+	right:30px;
+	bottom:30px;
+	display:none;
+	width:40px;
+	height:40px;
+	background:url(../images/to_top.png) no-repeat left top;
+}
+#backTop:hover{
+	background:url(../images/to_top.png) no-repeat left bottom;
+}
+
+
+
+
+
