@@ -10,7 +10,7 @@ $(function(){
 	//平滑滚动导航
 	$('#down a, nav a, #logo').bind('click',function(event){
 		var $anchor = $(this);
-		$('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top-52}, 600);
+		$('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top-50}, 600);
 		event.preventDefault();
 	});
 });
@@ -21,11 +21,11 @@ $(window).resize(function(){
 	//首页满屏效果
 	$("#firstPage").css("height", $(window).height());
 	//首页文字效果
-	$('h1').stop().fadeIn().animate({
+	$('h1').fadeIn().animate({
 		top:($(window).height()-$('h1').outerHeight())/2
 	},600); 
 	
-	$("#profession").stop().fadeIn().animate({
+	$("#profession").fadeIn().animate({
 		bottom:($(window).height()-$('#profession').outerHeight())/4
 	},1500);
 });
